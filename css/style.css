@@ -1,0 +1,198 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+body
+{
+	font-family: 'Helvetica', sans-serif;
+	font-weight:100;
+}
+h1,h2,h3,h4
+{
+	font-weight:100;
+}
+h2
+{
+	margin-bottom: 5px;
+}
+h3
+{
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+.yes
+{
+	color: #1ecc00;
+}
+.maybe
+{
+	color: #fdc629;
+}
+.no
+{
+	color: #f60000;
+}
+.head
+{
+	background: #363739;
+	color: #fff;
+	padding:10px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.wrapper
+{
+	width: 900px;
+	margin:0 auto;
+	background: #fdfbfb;
+	padding:10px;
+	margin-top: 62px;
+	margin-bottom: 33px;
+}
+.content
+{
+	width: 770px;
+	margin: 0 auto;
+	height: 100%;
+}
+.key
+{
+	background: #f1f1f1;
+	padding:5px;
+	position: fixed;
+	width: 180px;
+	top: 100px;
+	right: 20px;
+}
+.clear
+{
+	clear: both;
+}
+table 
+{
+	border-collapse: collapse;
+	border: 1px solid #e3e3e3;
+	margin-bottom: 20px;
+	width: 800px;
+}
+table tr
+{
+	border-bottom: 1px solid #e3e3e3;
+}
+table th, table td
+{
+	padding:5px;
+	text-align: center;
+	border-right: 1px solid #e3e3e3;
+	max-width: 400px;
+	overflow: scroll;
+
+}
+table th
+{
+	font-weight: 400;
+}
+table tbody tr:hover
+{
+	background: #dbd3d3;
+}
+table tbody td:hover
+{
+	background: #c7bfbf;
+}
+table th
+{
+	font-weight: 400;
+}
+.button
+{
+	background:#008cba;
+	padding: 7px 13px;
+	font-size: 14px;
+	font-weight: 100;
+	line-height: 100%;
+	color: #fff;
+	display:inline-block;
+	vertical-align: middle;
+	text-align: center;
+	cursor: pointer;
+	font-weight: bold;
+	transition: background 0.1s ease-in-out;
+	-webkit-transition: background 0.1s ease-in-out;
+	-moz-transition: background 0.1s ease-in-out;
+	-ms-transition: background 0.1s ease-in-out;
+	-o-transition: background 0.1s ease-in-out;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	color: #fff;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	text-decoration: none;
+	border: none;
+}
+a, a:visited
+{
+	color: #008cba;
+	text-decoration: none;
+}
+.button:hover, a:hover
+{
+	background: #087092;
+}
+.left
+{
+	float: left;
+}
+.right
+{
+	float: right;
+}
+.submit
+{
+	margin-top: 5px;
+	border: none;
+	position:fixed;
+	top:8px;
+	right: 20px;
+}
+#site
+{
+	margin-top: 5px;
+	border: none;
+	position:fixed;
+	top:8px;
+	right: 20px;
+	width: 300px;
+	height: 27px;
+	font-size: 16px;
+}
+#other
+{
+	margin-top: 5px;
+	position: fixed;
+	top: 8px;
+	right:170px;
+	padding: 6px 4px;
+	width: 300px;
+}
+.loading
+{
+	text-align: center;
+}
+.footer
+{
+	height:30px;
+	width: 100%;
+	background: #363739;
+	position: fixed;
+	bottom: 0;
+}
+.footer p
+{
+	font-size: 10px;
+	color: #fff;
+	margin-top: 10px;
+	margin-right: 10px;
+}
